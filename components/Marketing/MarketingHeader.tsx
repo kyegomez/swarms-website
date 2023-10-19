@@ -15,11 +15,11 @@ export function MarketingHeader({
   return (
     <header className={clsx(className, styles.header)} {...props}>
       <Container className={styles.container}>
-        <Link href="/">
+        <Link href="https://github.com/kyegomez/swarms">
           <Logo />
         </Link>
         <Button icon={<SignInIcon />} onClick={() => signIn()}>
-          Sign in
+          Book A Discovery Call
         </Button>
       </Container>
     </header>

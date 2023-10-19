@@ -30,19 +30,18 @@ export default function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            Kickstart your collaborative&nbsp;app
+            Automate Tasks with Swarms
           </h1>
           <p className={styles.heroLead}>
-            Use the Liveblocks Starter Kit to build your document-based
-            collaborative app in&nbsp;minutes.
+            Deploy personalized AI Agents that automate your business tasks reliably, securely, and at scale effortlessly.
           </p>
         </div>
         <div className={styles.heroActions}>
           <Button icon={<SignInIcon />} onClick={() => signIn()}>
-            Sign in
+            Book A Discovery Call
           </Button>
           <LinkButton
-            href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
+            href="https://github.com/kyegomez/swarms"
             target="_blank"
             variant="secondary"
           >
@@ -56,55 +55,50 @@ export default function Index() {
           <Feature
             description={
               <>
-                A collaborative whiteboard app with included share menu,
-                documents listing, users, groups, permissions, and more.
+                 Vast arrays of special agents for sales, marketing, customer support, and much more.
               </>
             }
-            title="Liveblocks"
+            title="Specialized Agents"
           />
           <Feature
             description={
               <>
-                Best practices followed, using a mixture of SSR and custom API
-                endpoints. Modify documents from both client and server.
+                Our Agents provide outcomes you want, when you want them, and how you want them.
               </>
             }
-            title="Next.js"
+            title="Reliablity Comes First"
           />
           <Feature
             description={
               <>
-                Adjust our reusable interface & design system to fit your needs.
+                Swarming Architectures like Groupchats, Hierarchical, and the orchestrator provide the scalability you need to automate hundreds of tasks at once.
               </>
             }
-            title="User Interface"
+            title="Scalability"
           />
           <Feature
             description={
               <>
-                All custom client and server functions are fully typed, and easy
-                to update.
+                The Agents can be privately and securely finetuned on your data so you can deliver the best outcomes for your business.
               </>
             }
-            title="TypeScript"
+            title="Securely Finetuned on your Data"
           />
           <Feature
             description={
               <>
-                Complete authentication, compatible with any NextAuth provider,
-                including GitHub, Google, Auth0, and many more.
+                Our Agents can automate any and every digital task that you can do in a browser.
               </>
             }
-            title="NextAuth.js"
+            title="Automate Browser Tasks"
           />
           <Feature
             description={
               <>
-                See data update live using the SWR (state-while-revalidate)
-                library.
+                Multi-Modal Super Agents can help you generate content like text, images, videos, and more.
               </>
             }
-            title="SWR"
+            title="Generate Content"
           />
         </div>
       </Container>
