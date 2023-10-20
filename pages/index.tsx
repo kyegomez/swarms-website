@@ -39,7 +39,7 @@ export default function Index() {
             target="_blank"
             variant="secondary"
           >
-            Book A Discovery Call
+            Book Discovery Call
           </LinkButton>
           <LinkButton
             href="https://github.com/kyegomez/swarms"
