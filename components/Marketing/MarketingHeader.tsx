@@ -7,6 +7,7 @@ import { Button } from "../../primitives/Button";
 import { Container } from "../../primitives/Container";
 import { Logo } from "../Logo";
 import styles from "./MarketingHeader.module.css";
+import { LinkButton } from "../../primitives/Button";
 
 export function MarketingHeader({
   className,
@@ -15,12 +16,17 @@ export function MarketingHeader({
   return (
     <header className={clsx(className, styles.header)} {...props}>
       <Container className={styles.container}>
-        <Link href="https://github.com/kyegomez/swarms">
+        <Link href="https://calendly.com/swarm-corp/30min">
           <Logo />
         </Link>
-        <Button icon={<SignInIcon />} onClick={() => signIn()}>
-          Book A Discovery Call
-        </Button>
+        <LinkButton
+            href="https://calendly.com/swarm-corp/30min"
+            target="_blank"
+            variant="secondary"
+            className={styles.heroAction}
+          >
+            Book A Discovery Call
+          </LinkButton>
       </Container>
     </header>
   );

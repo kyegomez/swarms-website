@@ -14,7 +14,6 @@ interface FeatureProps extends Omit<ComponentProps<"div">, "title"> {
   description: ReactNode;
   title: ReactNode;
 }
-
 function Feature({ title, description, className, ...props }: FeatureProps) {
   return (
     <div className={clsx(className, styles.featuresFeature)} {...props}>
@@ -24,22 +23,26 @@ function Feature({ title, description, className, ...props }: FeatureProps) {
   );
 }
 
+// new button to send to calendly
 export default function Index() {
   return (
     <MarketingLayout>
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
-          <h1 className={styles.heroTitle}>
-            Automate Tasks with Swarms
-          </h1>
+          <h1 className={styles.heroTitle}>Automate Tasks with Swarms</h1>
           <p className={styles.heroLead}>
-            Deploy personalized AI Agents that automate your business tasks reliably, securely, and at scale effortlessly.
+            Deploy personalized AI Agents that automate your business tasks
+            reliably, securely, and at scale effortlessly.
           </p>
         </div>
         <div className={styles.heroActions}>
-          <Button icon={<SignInIcon />} onClick={() => signIn()}>
+          <LinkButton
+            href="https://calendly.com/swarm-corp/30min"
+            target="_blank"
+            variant="secondary"
+          >
             Book A Discovery Call
-          </Button>
+          </LinkButton>
           <LinkButton
             href="https://github.com/kyegomez/swarms"
             target="_blank"

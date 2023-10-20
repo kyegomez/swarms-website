@@ -14,7 +14,7 @@ export default function App({
   return (
     <>
       <Head>
-        <title>Starter Kit</title>
+        <title>The Swarm Corporation</title>
         <link href="/favicon.svg" rel="icon" type="image/svg" />
       </Head>
       <TooltipProvider>
