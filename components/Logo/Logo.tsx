@@ -5,7 +5,7 @@ import styles from "./Logo.module.css";
 export function Logo({ className, ...props }: ComponentProps<"div">) {
   return (
     <div className={clsx(className, styles.logo)} {...props}>
-      {/* <svg
+      <svg
         className={styles.mark}
         fill="none"
         viewBox="0 0 32 32"
@@ -17,7 +17,7 @@ export function Logo({ className, ...props }: ComponentProps<"div">) {
           fill="currentColor"
           fillRule="evenodd"
         />
-      </svg> */}
+      </svg>
       <span className={styles.wordmark}>The Swarm Corporation</span>
     </div>
   );

@@ -1,13 +1,10 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { signIn } from "next-auth/react";
 import { ComponentProps } from "react";
-import { SignInIcon } from "../../icons";
-import { Button } from "../../primitives/Button";
+import { LinkButton } from "../../primitives/Button";
 import { Container } from "../../primitives/Container";
 import { Logo } from "../Logo";
 import styles from "./MarketingHeader.module.css";
-import { LinkButton } from "../../primitives/Button";
 
 export function MarketingHeader({
   className,
@@ -20,13 +17,13 @@ export function MarketingHeader({
           <Logo />
         </Link>
         <LinkButton
-            href="https://calendly.com/swarm-corp/30min"
-            target="_blank"
-            variant="secondary"
-            className={styles.heroAction}
-          >
-            Book A Discovery Call
-          </LinkButton>
+          href="https://calendly.com/swarm-corp/30min"
+          target="_blank"
+          variant="secondary"
+          className={styles.heroAction}
+        >
+          Book A Discovery Call
+        </LinkButton>
       </Container>
     </header>
   );

@@ -1,12 +1,10 @@
 import clsx from "clsx";
 import { GetServerSideProps } from "next";
-import { signIn } from "next-auth/react";
 import { ComponentProps, ReactNode } from "react";
 import { DASHBOARD_URL } from "../constants";
-import { SignInIcon } from "../icons";
 import { MarketingLayout } from "../layouts/Marketing";
 import * as Server from "../lib/server";
-import { Button, LinkButton } from "../primitives/Button";
+import { LinkButton } from "../primitives/Button";
 import { Container } from "../primitives/Container";
 import styles from "./index.module.css";
 
@@ -53,12 +51,13 @@ export default function Index() {
         </div>
       </Container>
       <Container className={styles.section}>
-        <h2 className={styles.sectionTitle}>Features</h2>
+        <h2 className={styles.sectionTitle}>Benefits</h2>
         <div className={styles.featuresGrid}>
           <Feature
             description={
               <>
-                 Vast arrays of special agents for sales, marketing, customer support, and much more.
+                Vast arrays of special agents for sales, marketing, customer
+                support, and much more.
               </>
             }
             title="Specialized Agents"
@@ -66,7 +65,8 @@ export default function Index() {
           <Feature
             description={
               <>
-                Our Agents provide outcomes you want, when you want them, and how you want them.
+                Our Agents provide outcomes you want, when you want them, and
+                how you want them.
               </>
             }
             title="Reliablity Comes First"
@@ -74,7 +74,9 @@ export default function Index() {
           <Feature
             description={
               <>
-                Swarming Architectures like Groupchats, Hierarchical, and the orchestrator provide the scalability you need to automate hundreds of tasks at once.
+                Swarming Architectures like Groupchats, Hierarchical, and the
+                orchestrator provide the scalability you need to automate
+                hundreds of tasks at once.
               </>
             }
             title="Scalability"
@@ -82,7 +84,8 @@ export default function Index() {
           <Feature
             description={
               <>
-                The Agents can be privately and securely finetuned on your data so you can deliver the best outcomes for your business.
+                The Agents can be privately and securely finetuned on your data
+                so you can deliver the best outcomes for your business.
               </>
             }
             title="Securely Finetuned on your Data"
@@ -90,7 +93,8 @@ export default function Index() {
           <Feature
             description={
               <>
-                Our Agents can automate any and every digital task that you can do in a browser.
+                Our Agents can automate any and every digital task that you can
+                do in a browser.
               </>
             }
             title="Automate Browser Tasks"
@@ -98,7 +102,8 @@ export default function Index() {
           <Feature
             description={
               <>
-                Multi-Modal Super Agents can help you generate content like text, images, videos, and more.
+                Multi-Modal Super Agents can help you generate content like
+                text, images, videos, and more.
               </>
             }
             title="Generate Content"

@@ -14,7 +14,9 @@ export function MarketingFooter({
   return (
     <footer className={clsx(className, styles.footer)} {...props}>
       <Container className={styles.container}>
-        <span className={styles.copyright}>© {year} The Swarm Corporation.</span>
+        <span className={styles.copyright}>
+          © {year} The Swarm Corporation.
+        </span>
         <LinkButton
           href="https://github.com/kyegomez/swarms"
           icon={<GitHubIcon />}
