@@ -102,7 +102,7 @@ export default function Index() {
                 videos, and more.
               </>
             }
-            title="Generate Content"
+            title="Generate MultiMedia Content"
           />
         </div>
       </Container>
