@@ -104,6 +104,45 @@ export default function Index() {
             }
             title="Generate MultiMedia Content"
           />
+          <Feature
+            description={
+              <>
+                Deploy LLMs and AI with internal systems using a secure data
+                foundation while maintaining control over AI access. Use
+                commercial or open-source LLMs
+              </>
+            }
+            title="Any LLM/Model"
+          />
+          <Feature
+            description={
+              <>
+                Monitor and control agents and AI activity, ensuring compliance
+                with laws and regulations. Audit all prompts, outputs,
+                explanations, recommendations, and actions taken for regulatory
+                compliance.
+              </>
+            }
+            title="Control Your Agents"
+          />
+          <Feature
+            description={
+              <>
+                Define autonomous agents agents to pursue specific, scoped goals
+                or dynamic nonlinear workflows.
+              </>
+            }
+            title="Automate NonLinear Workflows"
+          />
+          <Feature
+            description={
+              <>
+                Run LLMs and AI securely in real-time, using a strong
+                multi-modal foundation.
+              </>
+            }
+            title="Reliable Multi-Modal Agents"
+          />
         </div>
       </Container>
     </MarketingLayout>
