@@ -29,8 +29,8 @@ export default function Index() {
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>Automate Tasks with Swarms</h1>
           <p className={styles.heroLead}>
-            Deploy personalized AI Agents that automate your business tasks
-            reliably, securely, and at scale effortlessly.
+            Deploy personalized swarms of AI Agents that automate your business tasks
+            reliably, securely, and at scale.
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -65,7 +65,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                Our Agents provide outcomes you want, when you want them, and
+                Outcomes you want, when you want them, and
                 how you want them.
               </>
             }
@@ -75,7 +75,7 @@ export default function Index() {
             description={
               <>
                 Swarming Architectures like Groupchats, Hierarchical, and the
-                orchestrator provide the scalability you need to automate
+                Orchestraor provide the scalability you need to automate
                 hundreds of tasks at once.
               </>
             }
@@ -84,8 +84,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                The Agents can be privately and securely finetuned on your data
-                so you can deliver the best outcomes for your business.
+                Finetune custom agents on your data to get the results you want.
               </>
             }
             title="Securely Finetuned on your Data"
@@ -93,8 +92,8 @@ export default function Index() {
           <Feature
             description={
               <>
-                Our Agents can automate any and every digital task that you can
-                do in a browser.
+                Automate complex workflows that involve multiple steps and
+                multiple applications in the browser.
               </>
             }
             title="Automate Browser Tasks"
@@ -102,8 +101,7 @@ export default function Index() {
           <Feature
             description={
               <>
-                Multi-Modal Super Agents can help you generate content like
-                text, images, videos, and more.
+                Generate high-converting multi-media content using text, images, videos, and more.
               </>
             }
             title="Generate Content"
