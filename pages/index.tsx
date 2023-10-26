@@ -145,6 +145,37 @@ export default function Index() {
           />
         </div>
       </Container>
+      <Container className={styles.section}>
+        <h2 className={styles.sectionTitle}>Built on Open Source!</h2>
+        <div className={styles.featuresGrid}>
+          <Feature
+            description={
+              <>
+                Swarms powers apps like ComicGen, The Compiler, and dozens of
+                open source projects!
+              </>
+            }
+            title="54,000+ Downloads"
+          />
+          <Feature
+            description={
+              <>
+                230+ developers from Google, Ford, and world class organizations
+              </>
+            }
+            title="230+ Stars"
+          />
+          <Feature
+            description={
+              <>
+                Dozens of veteran autonomous agent contributors from the open
+                source community!
+              </>
+            }
+            title="Contributors"
+          />
+        </div>
+      </Container>
     </MarketingLayout>
   );
 }
