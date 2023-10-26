@@ -29,8 +29,8 @@ export default function Index() {
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>Automate Tasks with Swarms</h1>
           <p className={styles.heroLead}>
-            Deploy personalized swarms of AI Agents that automate your business tasks
-            reliably, securely, and at scale.
+            Deploy personalized swarms of AI Agents that automate your business
+            tasks reliably, securely, and at scale.
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -64,10 +64,7 @@ export default function Index() {
           />
           <Feature
             description={
-              <>
-                Outcomes you want, when you want them, and
-                how you want them.
-              </>
+              <>Outcomes you want, when you want them, and how you want them.</>
             }
             title="Reliablity Comes First"
           />
@@ -101,7 +98,8 @@ export default function Index() {
           <Feature
             description={
               <>
-                Generate high-converting multi-media content using text, images, videos, and more.
+                Generate high-converting multi-media content using text, images,
+                videos, and more.
               </>
             }
             title="Generate Content"
