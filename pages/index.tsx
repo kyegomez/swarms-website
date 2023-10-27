@@ -143,6 +143,47 @@ export default function Index() {
             }
             title="Reliable Multi-Modal Agents"
           />
+          <Feature
+            description={
+              <>
+                Models. Agents. Tools. Data Loaders. Swarming Architectures. We
+                provide the blocks you need.
+              </>
+            }
+            title="Modular Building Blocks"
+          />
+          <Feature
+            description={
+              <>
+                Each of our agents are equipped with a base LLM, easily
+                swappable tools, and long term memory providing you with a
+                feature complete agent.
+              </>
+            }
+            title="Superior Agent Design"
+          />
+          <Feature
+            description={
+              <>
+                Enterprise grade security, reliability, and scalability. We
+                provide the tools you need to deploy your agents in production.
+              </>
+            }
+            title="Enterprise Grade"
+          />
+          <Feature
+            description={
+              <>
+                Our Agents are built on top of the latest AI research with State
+                of the Art performance.
+              </>
+            }
+            title="Post-Human Performance"
+          />
+          <Feature
+            description={<>Build in seconds and deploy in minutes.</>}
+            title="A Fluid Development Experience"
+          />
         </div>
       </Container>
       <Container className={styles.section}>
