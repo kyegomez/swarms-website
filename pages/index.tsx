@@ -29,8 +29,9 @@ export default function Index() {
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>Automate Tasks with Swarms</h1>
           <p className={styles.heroLead}>
-            Deploy personalized swarms of AI Agents that automate your business
-            tasks reliably, securely, and at scale.
+            Swarms is a modular framework that enables you to build reliable,
+            high-performance, and useful autonomous agents at scale to automate
+            real-world tasks.
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -215,6 +216,31 @@ export default function Index() {
             }
             title="Contributors"
           />
+        </div>
+      </Container>
+      <Container className={styles.section}>
+        <div className={styles.heroInfo}>
+          <h1 className={styles.heroTitle}>Swarm Cloud</h1>
+          <p className={styles.heroLead}>
+            Deploy and optimize swarms of autonomous agents in the cloud 24/7
+            automating thousands of real world tasks.
+          </p>
+        </div>
+        <div className={styles.heroActions}>
+          <LinkButton
+            href="https://calendly.com/swarm-corp/30min"
+            target="_blank"
+            variant="secondary"
+          >
+            Book Discovery Call
+          </LinkButton>
+          <LinkButton
+            href="https://github.com/kyegomez/swarms"
+            target="_blank"
+            variant="secondary"
+          >
+            Sign up
+          </LinkButton>
         </div>
       </Container>
     </MarketingLayout>
