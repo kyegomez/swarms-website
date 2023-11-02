@@ -214,7 +214,7 @@ export default function Index() {
                 source community!
               </>
             }
-            title="Contributors"
+            title="Dozens of Contributors"
           />
         </div>
       </Container>
