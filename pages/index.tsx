@@ -235,7 +235,7 @@ export default function Index() {
             Book Discovery Call
           </LinkButton>
           <LinkButton
-            href="https://github.com/kyegomez/swarms"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScwik5_xlBq9jF_a1ya8GDpWCiq3o4wx7pful87oRpKzcBJKA/viewform?usp=sf_link"
             target="_blank"
             variant="secondary"
           >
