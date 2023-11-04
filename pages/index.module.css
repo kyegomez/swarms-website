@@ -52,3 +52,34 @@
 .featuresFeatureDescription {
   font-size: var(--size-sm);
 }
+
+
+.installationDropdown {
+  /* styles for the <details> element */
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dropdownSummary {
+  /* styles for the <summary> element */
+  font-weight: bold;
+  color: #000000;
+}
+
+.dropdownContent {
+  /* styles for the content inside the dropdown */
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.dropdownContent code {
+  /* styles for the <code> element */
+  background: #000000;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
